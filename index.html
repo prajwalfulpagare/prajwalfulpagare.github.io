@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header id="header" class="container-fluid  d-flex flex-column flex-md-row " style="z-index: 1;">
+
+
+
+    <nav class="navbar navbar-expand-md  navbar-dark  d-flex flex-md-column ">
+      <a class="navbar-brand" href="#"> </a>
+
+      <button class=" navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <!-- <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> -->
+          <ul class="navbar-nav d-flex flex-md-column">
+
+            <li class="nav-item ">
+              <a class="nav-link active " aria-current="page" href="#">
+                <div class="nav-btn">
+
+                  <i class="fa-solid fa-house" style="color: #05090f;"></i>
+                  <span>Home</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">
+                <div class="nav-btn">
+
+                  <i class="fa-solid fa-user" style="color: #05090f;"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#projects">
+                <div class="nav-btn">
+
+                  <i class="fa-solid fa-server" style="color: #05090f;"></i>
+                  <span>Projects</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <section id="hero" style="height: 100vh;">
+    <div class="container" style="padding-top: 30vh;">
+      <div class="row">
+        <div class="col-8 ">
+          <h1 class="text-white">Hello,</h1>
+          <h2 class="text-white" style="max-width: 60%;">I am Prajwal Fulpagare </h2>
+          <div class="download-btn text-center d-flex align-items-center">
+            <a style="color: aliceblue; text-decoration: none;" class="p-1" href="assets/prajwal fulpagare resume.pdf"
+              download="Prajwal_Fulpagare_Resume">Download My Resume</a>
+            <i class="fa-solid fa-download"></i>
+          </div>
+          <div class="mt-3">
+            <i class="fa-regular fa-envelope fa-xl" style="color: white;"></i>
+            <h6 class="ms-2 text-white" style="display: inline;">prajwalfulpagare20@gmail.com</h6>
+          </div>
+
+          <div class="mt-3">
+            <i class="fa-solid fa-square-phone fa-xl" style="color: white; "></i>
+            <h6 class="ms-2 text-white" style="display: inline;">7040809080</h6>
+          </div>
+        </div>
+
+        <div class="mt-3">
+          <a href="https://www.linkedin.com/in/prajwal-fulpagare" target="_blank" style="text-decoration: none;">
+            <h6 class="text-white" style="display: inline;">Connect with me on </h6>
+            <i class="fa-brands fa-linkedin fa-xl" style="color: #0077b5;"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col m-2">
+          <h1 class="text-white text-center">About me</h1>
+          <p class="text-white text-start">I have successfully completed two live projects at Bank of Maharashtra, which
+            have provided me with valuable insights and a solid
+            understanding of the banking domain and its concepts. These experiences have equipped me with practical
+            knowledge in the industry,
+            and I am ready to leverage this expertise in contributing effectively to financial projects and endeavors.
+          </p>
+          <p class="text-white text-start">I have 2 years of hands-on experience in Data and Strong analytical skills
+            with the ability to collect, organize, analyze, and disseminate
+            significant amounts of information
+            Proven ability to learn quickly, be a great teammate, handle change well and self-motivated</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+<section id="projects" style="padding-top: 20px;">
+  <div class="container">
+    <h1 class="text-white text-center">Projects</h1>
+    <div class="row my-4">
+      <div class="col">
+        <div class="card-group">
+          <div class="card bg-dark border rounded m-2">
+            <div class="card-body"><a style="text-decoration: none;" class="text-white"
+                href="https://www.novypro.com/project/nifty-50--stocks-analysis" target="_blank">
+                <h5 class="card-title text-white text-decoration-underline">Stock Analysis</h5>
+                <h6 style="display: inline;">Tools Used:</h6>
+                <p style="display: inline;">Power Bi, SQL</p>
+                <p class="card-text text-white ">The Nifty 50 Stock Analysis Project leverages Power BI and SQL to
+                  provide
+                  comprehensive insights into the performance of the Nifty 50 stocks. Utilizing SQL for data retrieval
+                  and
+                  manipulation, the project extracts relevant financial and market data. Power BI is then employed for
+                  interactive visualization, enabling users to explore key metrics such as Summary, Volume Analysis, LTP
+                  Analysis, Turnover, Top and Bottom companies</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="card bg-dark border rounded m-2">
+            <div class="card-body"><a style="text-decoration: none;" class="text-white"
+                href="https://www.novypro.com/project/world-cup-2023-analysis" target="_blank">
+                <h5 class="card-title text-white text-decoration-underline">World Cup 2023 Analysis</h5>
+                <h6 style="display: inline;">Tools Used:</h6>
+                <p style="display: inline;">Power Bi, SQL</p>
+                <p class="card-text text-white ">The Cricket World Cup 2023 Analysis Project is a robust application
+                  developed using Power BI and SQL, offering a deep dive into the dynamics of the tournament. Leveraging
+                  SQL for efficient data processing, the project collects and manages comprehensive cricket match data,
+                  including player statistics, team performances, and match outcomes. Power BI is employed to create
+                  interactive dashboards and visualizations that highlight key trends, player insight.
+                  Users can explore dynamic analytics, such as batting and bowling averages, run rates, and
+                  match summaries, providing cricket enthusiasts with a powerful tool to analyze and relive the
+                  excitement
+                  of the 2023 World Cup.</p>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</html>
